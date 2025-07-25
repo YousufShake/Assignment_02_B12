@@ -64,6 +64,31 @@ body {
   margin-top: 10px;
 }
 
+/* badge section */
+
+.badge .text h1 {
+  font-family: "Noto Serif", serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.badge .text ul li {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 50%);
+  list-style: disc;
+  padding: 20px 0;
+}
+.badge .image {
+  position: relative;
+}
+.badge_mark {
+  position: absolute;
+  top: -139px;
+  right: -80px;
+  width: 286px;
+  height: 286px;
+}
 /* Responsive Design */
 
 @media screen and (max-width: 776px) {
@@ -86,19 +111,40 @@ body {
   .text p {
     font-size: 1.2rem;
   }
-/* Our plants section  */
-.ourplan_cards {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-.ourplan_text h1 {
-  font-family: "Noto Serif", serif;
-}
-.ourplan_text p {
-  font-family: "Inter", sans-serif;
-  color: rgba(0, 0, 0, 50%);
-  font-size: 22px;
-  padding: 0;
-}
+  /* Our plants section  */
+  .ourplan_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .ourplan_text h1 {
+    font-family: "Noto Serif", serif;
+  }
+  .ourplan_text p {
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 50%);
+    font-size: 22px;
+    padding: 0;
+  }
+  /* badge section */
+
+  .badge .text h1 {
+    font-family: "Noto Serif", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .badge .text ul li {
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 50%);
+    list-style: disc;
+    padding: 20px 0;
+  }
+  .badge_mark {
+   display: none;
+  }
+  .badge{
+    display: flex;
+    flex-direction: column;
+  }
 }
