@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* font-family: "Noto Serif", serif; */
+/* font-family: "Inter", sans-serif; */
+body {
+  background-color: #f5f8ff;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.Menu ul li a:hover {
+  color: black;
+  font-weight: 600;
+}
+
+.content .text h1 {
+  font-family: "Noto Serif", serif;
+}
+.content .text p {
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 50%);
+}
+/* Our plants section  */
+.ourplan_cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.ourplan_text h1 {
+  font-family: "Noto Serif", serif;
+}
+.ourplan_text p {
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 50%);
+  font-size: 22px;
+  padding: 0 143px;
+}
+
+.box {
+  font-family: "Inter", sans-serif;
+  display: grid;
+  place-items: center;
+  color: #111111;
+}
+
+.box p {
+  font-size: 22px;
+  margin-top: 10px;
+}
+.box h4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.box button {
+  background-color: #e95a08;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  padding: 15px 0;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 776px) {
+  .container {
+    width: 361px;
+    margin: 0 auto;
+  }
+
+  .Menu ul li a {
+    display: none;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .text h1 {
+    font-size: 2rem;
+  }
+  .text p {
+    font-size: 1.2rem;
+  }
+/* Our plants section  */
+.ourplan_cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.ourplan_text h1 {
+  font-family: "Noto Serif", serif;
+}
+.ourplan_text p {
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 50%);
+  font-size: 22px;
+  padding: 0;
+}
+}
