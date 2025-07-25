@@ -149,6 +149,40 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* join section */
+.join {
+  min-height: 533px;
+  background-image: url(./assets/news-letter-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.join h1 {
+  color: white;
+  font-weight: bold;
+  font-family: "Noto Serif", serif;
+  margin-bottom: 20px;
+}
+
+.join input {
+  background-color: white;
+  width: 644px;
+  padding: 10px;
+}
+
+.join button {
+  background-color: #e95a08;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 30px;
+  margin-top: 10px;
+  font-family: "Inter", sans-serif;
+  margin-left: -4px;
+}
+
+
 /* Responsive Design */
 
 @media screen and (max-width: 776px) {
@@ -216,18 +250,54 @@ body {
   }
   /* latest_deals section */
   .large-box {
-  height: 100%;
-  min-height: 206px;
+    height: 100%;
+    min-height: 206px;
+  }
+  .large-box h2 {
+    font-size: 16px;
+  }
+  .latest_deals .text h1 {
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+  .latest_deals .text p {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  /* join section */
+  .join h1 {
+    font-size: 20px;
+  }
+  .join input{
+  background-color: white;
+  width: 218px;
+  padding: 10px;
+
 }
- .large-box h2{
-  font-size: 16px;
- }
- .latest_deals .text h1{
-  font-size: 24px;
-  padding-bottom: 20px;
- }
- .latest_deals .text p{
-  font-size: 14px;
-  padding: 0;
- }
+.join {
+  min-height: 275px;
+  background-image: url(./assets/news-letter-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* footer section */
+footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_ui{
+  display: flex;
+  justify-content: start;
+  padding: 10px 0;
+}
+
+.footer_icon{
+  display: flex;
+  justify-content: start;
+  padding-top: 20px;
+}
 }
